@@ -1,0 +1,2 @@
+model_checkpoint_path: "D:\\myGit\\Algorithm\\log\\model.ckpt"
+all_model_checkpoint_paths: "D:\\myGit\\Algorithm\\log\\model.ckpt"

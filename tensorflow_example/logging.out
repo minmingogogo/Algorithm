@@ -1,0 +1,491 @@
+[2019-06-04 12:57:03,694] [common.py][line:27][func: <module>] - [WARNING] : logger is work
+[2019-06-04 12:57:03,703] [<ipython-input-5-61a367dc59f2>][line:30][func: KMeansCluster] - [DEBUG] : enter 1 
+[2019-06-04 12:57:03,703] [<ipython-input-5-61a367dc59f2>][line:34][func: KMeansCluster] - [DEBUG] : µÚ 1 ÂÖ-----------------
+[2019-06-04 12:57:03,718] [<ipython-input-5-61a367dc59f2>][line:47][func: KMeansCluster] - [DEBUG] : 2.1 finish cent_assigns
+[2019-06-04 12:57:03,742] [<ipython-input-5-61a367dc59f2>][line:57][func: KMeansCluster] - [DEBUG] : 2.2 finish cluster_assigns
+[2019-06-04 12:57:03,747] [<ipython-input-5-61a367dc59f2>][line:75][func: KMeansCluster] - [DEBUG] : 2.3 finish euclid_dist
+[2019-06-04 12:57:03,774] [<ipython-input-5-61a367dc59f2>][line:88][func: KMeansCluster] - [DEBUG] : 2.4 finish init_op
+[2019-06-04 12:57:03,821] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [7.326846, 2.430985, 3.6716096, 1.6590796]
+[2019-06-04 12:57:03,825] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:03,832] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.0, 5.089409, 3.6667504, 5.750038]
+[2019-06-04 12:57:03,832] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:03,838] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [5.750038, 0.7789407, 2.1741745, 0.0]
+[2019-06-04 12:57:03,839] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:03,845] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.1249747, 3.2594807, 1.6424223, 3.8117836]
+[2019-06-04 12:57:03,845] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:03,851] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [3.32421, 1.9360223, 0.34842464, 2.479394]
+[2019-06-04 12:57:03,852] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:03,858] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [7.168018, 2.1126227, 3.7716794, 1.6744473]
+[2019-06-04 12:57:03,858] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:03,865] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [1.3994836, 3.883255, 2.334135, 4.481265]
+[2019-06-04 12:57:03,865] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:03,871] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [5.089409, 0.0, 1.6907467, 0.7789407]
+[2019-06-04 12:57:03,872] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:03,877] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [3.6667504, 1.6907467, 0.0, 2.1741745]
+[2019-06-04 12:57:03,878] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:03,884] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [3.4397614, 1.6534113, 0.8750833, 2.3551767]
+[2019-06-04 12:57:03,884] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:03,913] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [-1.7910298  4.1688576]
+[2019-06-04 12:57:03,919] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [2.2729235 6.035812 ]
+[2019-06-04 12:57:03,924] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [0.5647142 4.808361 ]
+[2019-06-04 12:57:03,931] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [3.9202669 6.2568684]
+[2019-06-04 12:57:03,938] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.66192, 2.430985, 4.22245, 0.92732793]
+[2019-06-04 12:57:03,939] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:03,941] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 5.089409, 3.1055021, 6.718986]
+[2019-06-04 12:57:03,941] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:03,944] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [5.107123, 0.7789407, 2.6779025, 0.9771602]
+[2019-06-04 12:57:03,945] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:03,948] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [1.426167, 3.2594807, 1.1560618, 4.7881203]
+[2019-06-04 12:57:03,948] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:03,951] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.6549397, 1.9360223, 0.22585495, 3.4564497]
+[2019-06-04 12:57:03,952] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:03,955] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.569932, 2.1126227, 4.214887, 0.9364902]
+[2019-06-04 12:57:03,955] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:03,958] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 3.883255, 1.8033639, 5.458196]
+[2019-06-04 12:57:03,958] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:03,961] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [4.4722743, 0.0, 2.1034768, 1.662109]
+[2019-06-04 12:57:03,961] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:03,964] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.992822, 1.6907467, 0.57410675, 3.1486254]
+[2019-06-04 12:57:03,965] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:03,967] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.8391309, 1.6534113, 0.74110734, 3.3031769]
+[2019-06-04 12:57:03,968] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:03,969] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [-1.7910298  4.1688576]
+[2019-06-04 12:57:03,971] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [2.6515791 5.944669 ]
+[2019-06-04 12:57:03,972] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [0.5647142 4.808361 ]
+[2019-06-04 12:57:03,974] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [4.365283 6.45854 ]
+[2019-06-04 12:57:03,977] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.66192, 2.0443654, 4.22245, 0.79357743]
+[2019-06-04 12:57:03,978] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:03,981] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 5.415794, 3.1055021, 7.204292]
+[2019-06-04 12:57:03,981] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:03,984] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [5.107123, 0.38947028, 2.6779025, 1.4657406]
+[2019-06-04 12:57:03,984] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:03,987] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [1.426167, 3.524949, 1.1560618, 5.2764034]
+[2019-06-04 12:57:03,988] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:03,990] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.6549397, 2.19, 0.22585495, 3.944997]
+[2019-06-04 12:57:03,991] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:03,993] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.569932, 1.8659549, 4.214887, 0.7935772]
+[2019-06-04 12:57:03,994] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:03,996] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 4.174807, 1.8033639, 5.94669]
+[2019-06-04 12:57:03,997] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:03,999] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [4.4722743, 0.3894704, 2.1034768, 2.1346352]
+[2019-06-04 12:57:04,000] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,003] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.992822, 1.9081776, 0.57410675, 3.6363964]
+[2019-06-04 12:57:04,003] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,006] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.8391309, 1.9971544, 0.74110734, 3.7827466]
+[2019-06-04 12:57:04,006] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,007] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [-1.7910298  4.1688576]
+[2019-06-04 12:57:04,009] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [2.6515791 5.944669 ]
+[2019-06-04 12:57:04,011] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [0.5647142 4.808361 ]
+[2019-06-04 12:57:04,012] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [4.365283 6.45854 ]
+[2019-06-04 12:57:04,015] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.66192, 2.0443654, 4.22245, 0.79357743]
+[2019-06-04 12:57:04,016] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:04,019] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 5.415794, 3.1055021, 7.204292]
+[2019-06-04 12:57:04,019] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:04,022] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [5.107123, 0.38947028, 2.6779025, 1.4657406]
+[2019-06-04 12:57:04,022] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,025] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [1.426167, 3.524949, 1.1560618, 5.2764034]
+[2019-06-04 12:57:04,025] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,028] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.6549397, 2.19, 0.22585495, 3.944997]
+[2019-06-04 12:57:04,028] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,031] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.569932, 1.8659549, 4.214887, 0.7935772]
+[2019-06-04 12:57:04,032] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:04,034] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 4.174807, 1.8033639, 5.94669]
+[2019-06-04 12:57:04,035] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:04,038] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [4.4722743, 0.3894704, 2.1034768, 2.1346352]
+[2019-06-04 12:57:04,038] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,041] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.992822, 1.9081776, 0.57410675, 3.6363964]
+[2019-06-04 12:57:04,041] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,044] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.8391309, 1.9971544, 0.74110734, 3.7827466]
+[2019-06-04 12:57:04,045] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,046] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [-1.7910298  4.1688576]
+[2019-06-04 12:57:04,047] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [2.6515791 5.944669 ]
+[2019-06-04 12:57:04,049] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [0.5647142 4.808361 ]
+[2019-06-04 12:57:04,051] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [4.365283 6.45854 ]
+[2019-06-04 12:57:04,054] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.66192, 2.0443654, 4.22245, 0.79357743]
+[2019-06-04 12:57:04,054] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:04,057] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 5.415794, 3.1055021, 7.204292]
+[2019-06-04 12:57:04,058] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:04,060] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [5.107123, 0.38947028, 2.6779025, 1.4657406]
+[2019-06-04 12:57:04,061] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,064] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [1.426167, 3.524949, 1.1560618, 5.2764034]
+[2019-06-04 12:57:04,064] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,067] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.6549397, 2.19, 0.22585495, 3.944997]
+[2019-06-04 12:57:04,067] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,070] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.569932, 1.8659549, 4.214887, 0.7935772]
+[2019-06-04 12:57:04,070] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:04,073] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 4.174807, 1.8033639, 5.94669]
+[2019-06-04 12:57:04,074] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:04,076] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [4.4722743, 0.3894704, 2.1034768, 2.1346352]
+[2019-06-04 12:57:04,077] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,080] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.992822, 1.9081776, 0.57410675, 3.6363964]
+[2019-06-04 12:57:04,080] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,083] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.8391309, 1.9971544, 0.74110734, 3.7827466]
+[2019-06-04 12:57:04,083] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,085] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [-1.7910298  4.1688576]
+[2019-06-04 12:57:04,086] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [2.6515791 5.944669 ]
+[2019-06-04 12:57:04,088] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [0.5647142 4.808361 ]
+[2019-06-04 12:57:04,089] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [4.365283 6.45854 ]
+[2019-06-04 12:57:04,093] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.66192, 2.0443654, 4.22245, 0.79357743]
+[2019-06-04 12:57:04,093] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:04,096] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 5.415794, 3.1055021, 7.204292]
+[2019-06-04 12:57:04,097] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:04,099] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [5.107123, 0.38947028, 2.6779025, 1.4657406]
+[2019-06-04 12:57:04,100] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,103] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [1.426167, 3.524949, 1.1560618, 5.2764034]
+[2019-06-04 12:57:04,103] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,106] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.6549397, 2.19, 0.22585495, 3.944997]
+[2019-06-04 12:57:04,106] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,109] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.569932, 1.8659549, 4.214887, 0.7935772]
+[2019-06-04 12:57:04,109] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:04,112] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 4.174807, 1.8033639, 5.94669]
+[2019-06-04 12:57:04,113] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:04,116] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [4.4722743, 0.3894704, 2.1034768, 2.1346352]
+[2019-06-04 12:57:04,117] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,120] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.992822, 1.9081776, 0.57410675, 3.6363964]
+[2019-06-04 12:57:04,121] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,125] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.8391309, 1.9971544, 0.74110734, 3.7827466]
+[2019-06-04 12:57:04,126] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,127] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [-1.7910298  4.1688576]
+[2019-06-04 12:57:04,131] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [2.6515791 5.944669 ]
+[2019-06-04 12:57:04,133] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [0.5647142 4.808361 ]
+[2019-06-04 12:57:04,136] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [4.365283 6.45854 ]
+[2019-06-04 12:57:04,141] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.66192, 2.0443654, 4.22245, 0.79357743]
+[2019-06-04 12:57:04,141] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:04,145] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 5.415794, 3.1055021, 7.204292]
+[2019-06-04 12:57:04,146] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:04,149] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [5.107123, 0.38947028, 2.6779025, 1.4657406]
+[2019-06-04 12:57:04,150] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,154] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [1.426167, 3.524949, 1.1560618, 5.2764034]
+[2019-06-04 12:57:04,155] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,159] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.6549397, 2.19, 0.22585495, 3.944997]
+[2019-06-04 12:57:04,160] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,165] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.569932, 1.8659549, 4.214887, 0.7935772]
+[2019-06-04 12:57:04,166] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:04,170] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 4.174807, 1.8033639, 5.94669]
+[2019-06-04 12:57:04,171] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:04,175] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [4.4722743, 0.3894704, 2.1034768, 2.1346352]
+[2019-06-04 12:57:04,175] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,180] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.992822, 1.9081776, 0.57410675, 3.6363964]
+[2019-06-04 12:57:04,180] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,186] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.8391309, 1.9971544, 0.74110734, 3.7827466]
+[2019-06-04 12:57:04,187] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,190] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [-1.7910298  4.1688576]
+[2019-06-04 12:57:04,194] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [2.6515791 5.944669 ]
+[2019-06-04 12:57:04,196] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [0.5647142 4.808361 ]
+[2019-06-04 12:57:04,198] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [4.365283 6.45854 ]
+[2019-06-04 12:57:04,203] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.66192, 2.0443654, 4.22245, 0.79357743]
+[2019-06-04 12:57:04,203] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:04,207] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 5.415794, 3.1055021, 7.204292]
+[2019-06-04 12:57:04,208] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:04,211] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [5.107123, 0.38947028, 2.6779025, 1.4657406]
+[2019-06-04 12:57:04,211] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,215] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [1.426167, 3.524949, 1.1560618, 5.2764034]
+[2019-06-04 12:57:04,215] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,218] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.6549397, 2.19, 0.22585495, 3.944997]
+[2019-06-04 12:57:04,219] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,222] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.569932, 1.8659549, 4.214887, 0.7935772]
+[2019-06-04 12:57:04,222] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:04,225] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 4.174807, 1.8033639, 5.94669]
+[2019-06-04 12:57:04,225] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:04,228] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [4.4722743, 0.3894704, 2.1034768, 2.1346352]
+[2019-06-04 12:57:04,229] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,231] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.992822, 1.9081776, 0.57410675, 3.6363964]
+[2019-06-04 12:57:04,232] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,234] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.8391309, 1.9971544, 0.74110734, 3.7827466]
+[2019-06-04 12:57:04,235] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,236] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [-1.7910298  4.1688576]
+[2019-06-04 12:57:04,238] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [2.6515791 5.944669 ]
+[2019-06-04 12:57:04,239] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [0.5647142 4.808361 ]
+[2019-06-04 12:57:04,241] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [4.365283 6.45854 ]
+[2019-06-04 12:57:04,245] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.66192, 2.0443654, 4.22245, 0.79357743]
+[2019-06-04 12:57:04,245] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:04,248] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 5.415794, 3.1055021, 7.204292]
+[2019-06-04 12:57:04,249] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:04,252] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [5.107123, 0.38947028, 2.6779025, 1.4657406]
+[2019-06-04 12:57:04,252] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,255] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [1.426167, 3.524949, 1.1560618, 5.2764034]
+[2019-06-04 12:57:04,255] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,258] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.6549397, 2.19, 0.22585495, 3.944997]
+[2019-06-04 12:57:04,258] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,261] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.569932, 1.8659549, 4.214887, 0.7935772]
+[2019-06-04 12:57:04,262] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:04,264] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 4.174807, 1.8033639, 5.94669]
+[2019-06-04 12:57:04,265] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:04,267] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [4.4722743, 0.3894704, 2.1034768, 2.1346352]
+[2019-06-04 12:57:04,268] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,270] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.992822, 1.9081776, 0.57410675, 3.6363964]
+[2019-06-04 12:57:04,271] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,274] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.8391309, 1.9971544, 0.74110734, 3.7827466]
+[2019-06-04 12:57:04,274] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,275] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [-1.7910298  4.1688576]
+[2019-06-04 12:57:04,277] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [2.6515791 5.944669 ]
+[2019-06-04 12:57:04,279] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [0.5647142 4.808361 ]
+[2019-06-04 12:57:04,280] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [4.365283 6.45854 ]
+[2019-06-04 12:57:04,283] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.66192, 2.0443654, 4.22245, 0.79357743]
+[2019-06-04 12:57:04,283] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:04,286] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 5.415794, 3.1055021, 7.204292]
+[2019-06-04 12:57:04,287] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:04,289] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [5.107123, 0.38947028, 2.6779025, 1.4657406]
+[2019-06-04 12:57:04,290] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,292] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [1.426167, 3.524949, 1.1560618, 5.2764034]
+[2019-06-04 12:57:04,293] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,295] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.6549397, 2.19, 0.22585495, 3.944997]
+[2019-06-04 12:57:04,296] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,298] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.569932, 1.8659549, 4.214887, 0.7935772]
+[2019-06-04 12:57:04,299] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:04,302] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 4.174807, 1.8033639, 5.94669]
+[2019-06-04 12:57:04,302] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:04,305] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [4.4722743, 0.3894704, 2.1034768, 2.1346352]
+[2019-06-04 12:57:04,305] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,308] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.992822, 1.9081776, 0.57410675, 3.6363964]
+[2019-06-04 12:57:04,308] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,311] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.8391309, 1.9971544, 0.74110734, 3.7827466]
+[2019-06-04 12:57:04,311] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,313] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [-1.7910298  4.1688576]
+[2019-06-04 12:57:04,314] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [2.6515791 5.944669 ]
+[2019-06-04 12:57:04,315] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [0.5647142 4.808361 ]
+[2019-06-04 12:57:04,317] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [4.365283 6.45854 ]
+[2019-06-04 12:57:04,320] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.66192, 2.0443654, 4.22245, 0.79357743]
+[2019-06-04 12:57:04,320] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:04,323] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 5.415794, 3.1055021, 7.204292]
+[2019-06-04 12:57:04,323] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:04,326] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [5.107123, 0.38947028, 2.6779025, 1.4657406]
+[2019-06-04 12:57:04,327] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,329] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [1.426167, 3.524949, 1.1560618, 5.2764034]
+[2019-06-04 12:57:04,330] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,332] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.6549397, 2.19, 0.22585495, 3.944997]
+[2019-06-04 12:57:04,333] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,335] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.569932, 1.8659549, 4.214887, 0.7935772]
+[2019-06-04 12:57:04,336] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:04,339] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 4.174807, 1.8033639, 5.94669]
+[2019-06-04 12:57:04,339] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:04,342] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [4.4722743, 0.3894704, 2.1034768, 2.1346352]
+[2019-06-04 12:57:04,342] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,345] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.992822, 1.9081776, 0.57410675, 3.6363964]
+[2019-06-04 12:57:04,345] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,348] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.8391309, 1.9971544, 0.74110734, 3.7827466]
+[2019-06-04 12:57:04,348] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,350] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [-1.7910298  4.1688576]
+[2019-06-04 12:57:04,351] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [2.6515791 5.944669 ]
+[2019-06-04 12:57:04,353] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [0.5647142 4.808361 ]
+[2019-06-04 12:57:04,355] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [4.365283 6.45854 ]
+[2019-06-04 12:57:04,358] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.66192, 2.0443654, 4.22245, 0.79357743]
+[2019-06-04 12:57:04,358] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:04,361] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 5.415794, 3.1055021, 7.204292]
+[2019-06-04 12:57:04,361] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:04,364] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [5.107123, 0.38947028, 2.6779025, 1.4657406]
+[2019-06-04 12:57:04,364] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,367] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [1.426167, 3.524949, 1.1560618, 5.2764034]
+[2019-06-04 12:57:04,367] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,370] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.6549397, 2.19, 0.22585495, 3.944997]
+[2019-06-04 12:57:04,371] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,373] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.569932, 1.8659549, 4.214887, 0.7935772]
+[2019-06-04 12:57:04,374] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:04,377] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 4.174807, 1.8033639, 5.94669]
+[2019-06-04 12:57:04,377] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:04,380] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [4.4722743, 0.3894704, 2.1034768, 2.1346352]
+[2019-06-04 12:57:04,380] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,383] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.992822, 1.9081776, 0.57410675, 3.6363964]
+[2019-06-04 12:57:04,383] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,386] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.8391309, 1.9971544, 0.74110734, 3.7827466]
+[2019-06-04 12:57:04,386] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,388] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [-1.7910298  4.1688576]
+[2019-06-04 12:57:04,389] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [2.6515791 5.944669 ]
+[2019-06-04 12:57:04,391] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [0.5647142 4.808361 ]
+[2019-06-04 12:57:04,392] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [4.365283 6.45854 ]
+[2019-06-04 12:57:04,396] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.66192, 2.0443654, 4.22245, 0.79357743]
+[2019-06-04 12:57:04,396] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:04,399] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 5.415794, 3.1055021, 7.204292]
+[2019-06-04 12:57:04,400] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:04,403] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [5.107123, 0.38947028, 2.6779025, 1.4657406]
+[2019-06-04 12:57:04,403] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,406] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [1.426167, 3.524949, 1.1560618, 5.2764034]
+[2019-06-04 12:57:04,406] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,409] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.6549397, 2.19, 0.22585495, 3.944997]
+[2019-06-04 12:57:04,410] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,412] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.569932, 1.8659549, 4.214887, 0.7935772]
+[2019-06-04 12:57:04,413] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:04,416] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 4.174807, 1.8033639, 5.94669]
+[2019-06-04 12:57:04,416] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:04,419] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [4.4722743, 0.3894704, 2.1034768, 2.1346352]
+[2019-06-04 12:57:04,419] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,422] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.992822, 1.9081776, 0.57410675, 3.6363964]
+[2019-06-04 12:57:04,423] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,425] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.8391309, 1.9971544, 0.74110734, 3.7827466]
+[2019-06-04 12:57:04,426] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,427] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [-1.7910298  4.1688576]
+[2019-06-04 12:57:04,429] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [2.6515791 5.944669 ]
+[2019-06-04 12:57:04,430] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [0.5647142 4.808361 ]
+[2019-06-04 12:57:04,432] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [4.365283 6.45854 ]
+[2019-06-04 12:57:04,435] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.66192, 2.0443654, 4.22245, 0.79357743]
+[2019-06-04 12:57:04,435] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:04,438] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 5.415794, 3.1055021, 7.204292]
+[2019-06-04 12:57:04,438] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:04,441] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [5.107123, 0.38947028, 2.6779025, 1.4657406]
+[2019-06-04 12:57:04,441] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,444] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [1.426167, 3.524949, 1.1560618, 5.2764034]
+[2019-06-04 12:57:04,444] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,447] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.6549397, 2.19, 0.22585495, 3.944997]
+[2019-06-04 12:57:04,448] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,451] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.569932, 1.8659549, 4.214887, 0.7935772]
+[2019-06-04 12:57:04,451] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:04,454] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 4.174807, 1.8033639, 5.94669]
+[2019-06-04 12:57:04,455] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:04,458] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [4.4722743, 0.3894704, 2.1034768, 2.1346352]
+[2019-06-04 12:57:04,458] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,461] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.992822, 1.9081776, 0.57410675, 3.6363964]
+[2019-06-04 12:57:04,461] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,464] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.8391309, 1.9971544, 0.74110734, 3.7827466]
+[2019-06-04 12:57:04,464] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,466] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [-1.7910298  4.1688576]
+[2019-06-04 12:57:04,468] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [2.6515791 5.944669 ]
+[2019-06-04 12:57:04,469] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [0.5647142 4.808361 ]
+[2019-06-04 12:57:04,471] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [4.365283 6.45854 ]
+[2019-06-04 12:57:04,474] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.66192, 2.0443654, 4.22245, 0.79357743]
+[2019-06-04 12:57:04,475] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:04,477] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 5.415794, 3.1055021, 7.204292]
+[2019-06-04 12:57:04,478] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:04,480] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [5.107123, 0.38947028, 2.6779025, 1.4657406]
+[2019-06-04 12:57:04,481] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,484] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [1.426167, 3.524949, 1.1560618, 5.2764034]
+[2019-06-04 12:57:04,484] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,487] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.6549397, 2.19, 0.22585495, 3.944997]
+[2019-06-04 12:57:04,487] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,490] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.569932, 1.8659549, 4.214887, 0.7935772]
+[2019-06-04 12:57:04,490] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:04,493] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 4.174807, 1.8033639, 5.94669]
+[2019-06-04 12:57:04,494] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:04,496] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [4.4722743, 0.3894704, 2.1034768, 2.1346352]
+[2019-06-04 12:57:04,497] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,499] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.992822, 1.9081776, 0.57410675, 3.6363964]
+[2019-06-04 12:57:04,500] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,502] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.8391309, 1.9971544, 0.74110734, 3.7827466]
+[2019-06-04 12:57:04,503] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,504] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [-1.7910298  4.1688576]
+[2019-06-04 12:57:04,506] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [2.6515791 5.944669 ]
+[2019-06-04 12:57:04,507] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [0.5647142 4.808361 ]
+[2019-06-04 12:57:04,509] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [4.365283 6.45854 ]
+[2019-06-04 12:57:04,512] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.66192, 2.0443654, 4.22245, 0.79357743]
+[2019-06-04 12:57:04,513] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:04,516] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 5.415794, 3.1055021, 7.204292]
+[2019-06-04 12:57:04,516] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:04,519] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [5.107123, 0.38947028, 2.6779025, 1.4657406]
+[2019-06-04 12:57:04,519] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,522] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [1.426167, 3.524949, 1.1560618, 5.2764034]
+[2019-06-04 12:57:04,522] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,525] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.6549397, 2.19, 0.22585495, 3.944997]
+[2019-06-04 12:57:04,525] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,528] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.569932, 1.8659549, 4.214887, 0.7935772]
+[2019-06-04 12:57:04,528] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:04,531] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 4.174807, 1.8033639, 5.94669]
+[2019-06-04 12:57:04,532] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:04,534] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [4.4722743, 0.3894704, 2.1034768, 2.1346352]
+[2019-06-04 12:57:04,535] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,538] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.992822, 1.9081776, 0.57410675, 3.6363964]
+[2019-06-04 12:57:04,538] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,541] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.8391309, 1.9971544, 0.74110734, 3.7827466]
+[2019-06-04 12:57:04,541] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,543] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [-1.7910298  4.1688576]
+[2019-06-04 12:57:04,544] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [2.6515791 5.944669 ]
+[2019-06-04 12:57:04,546] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [0.5647142 4.808361 ]
+[2019-06-04 12:57:04,548] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [4.365283 6.45854 ]
+[2019-06-04 12:57:04,551] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.66192, 2.0443654, 4.22245, 0.79357743]
+[2019-06-04 12:57:04,551] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:04,554] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 5.415794, 3.1055021, 7.204292]
+[2019-06-04 12:57:04,555] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:04,557] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [5.107123, 0.38947028, 2.6779025, 1.4657406]
+[2019-06-04 12:57:04,558] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,560] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [1.426167, 3.524949, 1.1560618, 5.2764034]
+[2019-06-04 12:57:04,561] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,564] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.6549397, 2.19, 0.22585495, 3.944997]
+[2019-06-04 12:57:04,564] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,567] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.569932, 1.8659549, 4.214887, 0.7935772]
+[2019-06-04 12:57:04,567] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:04,570] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 4.174807, 1.8033639, 5.94669]
+[2019-06-04 12:57:04,570] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:04,573] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [4.4722743, 0.3894704, 2.1034768, 2.1346352]
+[2019-06-04 12:57:04,573] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,576] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.992822, 1.9081776, 0.57410675, 3.6363964]
+[2019-06-04 12:57:04,576] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,579] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.8391309, 1.9971544, 0.74110734, 3.7827466]
+[2019-06-04 12:57:04,580] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,581] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [-1.7910298  4.1688576]
+[2019-06-04 12:57:04,582] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [2.6515791 5.944669 ]
+[2019-06-04 12:57:04,584] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [0.5647142 4.808361 ]
+[2019-06-04 12:57:04,586] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [4.365283 6.45854 ]
+[2019-06-04 12:57:04,589] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.66192, 2.0443654, 4.22245, 0.79357743]
+[2019-06-04 12:57:04,589] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:04,592] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 5.415794, 3.1055021, 7.204292]
+[2019-06-04 12:57:04,592] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:04,595] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [5.107123, 0.38947028, 2.6779025, 1.4657406]
+[2019-06-04 12:57:04,595] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,598] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [1.426167, 3.524949, 1.1560618, 5.2764034]
+[2019-06-04 12:57:04,598] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,601] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.6549397, 2.19, 0.22585495, 3.944997]
+[2019-06-04 12:57:04,601] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,604] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.569932, 1.8659549, 4.214887, 0.7935772]
+[2019-06-04 12:57:04,604] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:04,607] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 4.174807, 1.8033639, 5.94669]
+[2019-06-04 12:57:04,608] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:04,610] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [4.4722743, 0.3894704, 2.1034768, 2.1346352]
+[2019-06-04 12:57:04,611] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,613] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.992822, 1.9081776, 0.57410675, 3.6363964]
+[2019-06-04 12:57:04,614] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,617] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.8391309, 1.9971544, 0.74110734, 3.7827466]
+[2019-06-04 12:57:04,617] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,618] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [-1.7910298  4.1688576]
+[2019-06-04 12:57:04,620] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [2.6515791 5.944669 ]
+[2019-06-04 12:57:04,622] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [0.5647142 4.808361 ]
+[2019-06-04 12:57:04,623] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [4.365283 6.45854 ]
+[2019-06-04 12:57:04,626] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.66192, 2.0443654, 4.22245, 0.79357743]
+[2019-06-04 12:57:04,627] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:04,629] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 5.415794, 3.1055021, 7.204292]
+[2019-06-04 12:57:04,630] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:04,633] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [5.107123, 0.38947028, 2.6779025, 1.4657406]
+[2019-06-04 12:57:04,633] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,636] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [1.426167, 3.524949, 1.1560618, 5.2764034]
+[2019-06-04 12:57:04,636] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,639] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.6549397, 2.19, 0.22585495, 3.944997]
+[2019-06-04 12:57:04,639] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,642] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.569932, 1.8659549, 4.214887, 0.7935772]
+[2019-06-04 12:57:04,643] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:04,645] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 4.174807, 1.8033639, 5.94669]
+[2019-06-04 12:57:04,646] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:04,649] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [4.4722743, 0.3894704, 2.1034768, 2.1346352]
+[2019-06-04 12:57:04,650] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,653] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.992822, 1.9081776, 0.57410675, 3.6363964]
+[2019-06-04 12:57:04,653] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,656] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.8391309, 1.9971544, 0.74110734, 3.7827466]
+[2019-06-04 12:57:04,656] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,658] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [-1.7910298  4.1688576]
+[2019-06-04 12:57:04,660] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [2.6515791 5.944669 ]
+[2019-06-04 12:57:04,662] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [0.5647142 4.808361 ]
+[2019-06-04 12:57:04,664] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [4.365283 6.45854 ]
+[2019-06-04 12:57:04,667] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.66192, 2.0443654, 4.22245, 0.79357743]
+[2019-06-04 12:57:04,668] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:04,672] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 5.415794, 3.1055021, 7.204292]
+[2019-06-04 12:57:04,672] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:04,675] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [5.107123, 0.38947028, 2.6779025, 1.4657406]
+[2019-06-04 12:57:04,676] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,678] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [1.426167, 3.524949, 1.1560618, 5.2764034]
+[2019-06-04 12:57:04,679] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,681] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.6549397, 2.19, 0.22585495, 3.944997]
+[2019-06-04 12:57:04,682] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,685] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [6.569932, 1.8659549, 4.214887, 0.7935772]
+[2019-06-04 12:57:04,685] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 3
+[2019-06-04 12:57:04,687] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [0.6997418, 4.174807, 1.8033639, 5.94669]
+[2019-06-04 12:57:04,687] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 0
+[2019-06-04 12:57:04,690] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [4.4722743, 0.3894704, 2.1034768, 2.1346352]
+[2019-06-04 12:57:04,690] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 1
+[2019-06-04 12:57:04,693] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.992822, 1.9081776, 0.57410675, 3.6363964]
+[2019-06-04 12:57:04,693] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,696] [<ipython-input-5-61a367dc59f2>][line:107][func: KMeansCluster] - [DEBUG] : 1 distances : [2.8391309, 1.9971544, 0.74110734, 3.7827466]
+[2019-06-04 12:57:04,697] [<ipython-input-5-61a367dc59f2>][line:117][func: KMeansCluster] - [DEBUG] : 1 assignment : 2
+[2019-06-04 12:57:04,698] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [-1.7910298  4.1688576]
+[2019-06-04 12:57:04,700] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [2.6515791 5.944669 ]
+[2019-06-04 12:57:04,701] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [0.5647142 4.808361 ]
+[2019-06-04 12:57:04,703] [<ipython-input-5-61a367dc59f2>][line:142][func: KMeansCluster] - [DEBUG] : newlocation : [4.365283 6.45854 ]
+[2019-06-04 12:57:04,703] [<ipython-input-5-61a367dc59f2>][line:149][func: KMeansCluster] - [DEBUG] : 2.5 finish iteration_n
+[2019-06-04 12:57:04,720] [<ipython-input-5-61a367dc59f2>][line:152][func: KMeansCluster] - [DEBUG] : centroids : [array([-1.79102981,  4.16885757]), array([2.65157914, 5.94466877]), array([0.56471419, 4.80836105]), array([4.36528301, 6.45853996])]
+[2019-06-04 12:57:04,725] [<ipython-input-5-61a367dc59f2>][line:153][func: KMeansCluster] - [DEBUG] : assignments : [3, 0, 1, 2, 2, 3, 0, 1, 2, 2]
+[2019-06-04 18:22:35,660] [common.py][line:27][func: <module>] - [WARNING] : logger is work
