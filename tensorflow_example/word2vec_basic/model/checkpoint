@@ -1,2 +1,0 @@
-model_checkpoint_path: "D:\\myGit\\Algorithm\\tensorflow_example\\word2vec_basic\\model\\model.ckpt"
-all_model_checkpoint_paths: "D:\\myGit\\Algorithm\\tensorflow_example\\word2vec_basic\\model\\model.ckpt"
