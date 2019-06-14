@@ -200,6 +200,105 @@ with tf.Session() as sess:
     with tf.Session() as sess:
         print(sess.run(c))
         
+13 tensor.eval() 是 tf.Session.run 的缩写    
+    最主要的区别就在于你可以使用sess.run()在同一步获取多个tensor中的值，
+    with tf.Session() as sess:
+        print(c.eval())
+     
+14 projector.ProjectorConfig()
+    https://blog.csdn.net/a13602955218/article/details/80988904
+    ProjectorConfig帮助生成日志文件
+    
+    
+    
+15 tf.nn.nce_loss
+    https://blog.csdn.net/qq_36092251/article/details/79684721
+    def nce_loss(weights, biases, inputs, labels, num_sampled, num_classes,
+                 num_true=1,
+                 sampled_values=None,
+                 remove_accidental_hits=False,
+                 partition_strategy="mod",
+                 name="nce_loss")
+    
+    假设nce_loss之前的输入数据是K维的，一共有N个类，那么
+
+    weight.shape = (N, K)
+    
+    bias.shape = (N)
+
+    labels.shape = (batch_size, num_true)
+    
+    inputs.shape = (batch_size, K)   
+    
+    num_true : 实际的正样本个数
+    
+    num_sampled: 采样出多少个负样本
+    
+    num_classes = N
+    
+    sampled_values: 采样出的负样本，如果是None，就会用不同的sampler去采样。待会儿说sampler是什么。
+    
+    remove_accidental_hits: 如果采样时不小心采样到的负样本刚好是正样本，要不要干掉
+    
+    partition_strategy：对weights进行embedding_lookup时并行查表时的策略。TF的embeding_lookup是在CPU里实现的，这里需要考虑多线程查表时的锁的问题
+    
+    nce_loss的实现逻辑如下：
+    
+    _compute_sampled_logits: 通过这个函数计算出正样本和采样出的负样本对应的output和label    
+      tf.nn.nce_loss(
+          weights=nce_weights,
+          biases=nce_biases,
+          labels=train_labels,
+          inputs=embed,
+          num_sampled=num_sampled,
+          num_classes=vocabulary_size))        
+
+
+16 优化器Optimizer
+    http://www.360doc.com/content/17/0315/11/10408243_637030552.shtml
+    https://vimsky.com/article/3788.html
+    https://blog.csdn.net/xierhacker/article/details/53174558      
+
+
+import tensorflow as tf
+import numpy as np
+import matplotlib.pyplot as plt
+
+TRAIN_STEPS=20
+
+# Prepare train data
+train_X = np.linspace(-1, 1, 100)
+train_Y = 2 * train_X + np.random.randn(*train_X.shape) * 0.33 + 10
+
+print(train_X.shape)
+
+w=tf.Variable(initial_value=1.0)
+b=tf.Variable(initial_value=1.0)
+
+optimizer=tf.keras.optimizers.SGD(0.1)
+mse=tf.keras.losses.MeanSquaredError()
+
+for i in range(TRAIN_STEPS):
+    print("epoch:",i)
+    print("w:", w.numpy())
+    print("b:", b.numpy())
+    #计算和更新梯度
+    with tf.GradientTape() as tape:
+        logit = w * train_X + b
+        loss=mse(train_Y,logit)
+    gradients=tape.gradient(target=loss,sources=[w,b])  #计算梯度
+    #print("gradients:",gradients)
+    #print("zip:\n",list(zip(gradients,[w,b])))
+    optimizer.apply_gradients(zip(gradients,[w,b]))     #更新梯度
+
+
+#draw
+plt.plot(train_X,train_Y,"+")
+plt.plot(train_X,w * train_X + b)
+plt.show()
+
+
+      
 # =============================================================================
 #   二 、graph 系列
     图与会话：用计算图来构建网络，用会话来具体执行网络
@@ -207,7 +306,7 @@ with tf.Session() as sess:
     tensorflow之图和会话翻译   
     https://blog.csdn.net/yinkun6514/article/details/79527702    
         
-     
+    
 # =============================================================================
 1 feed_dict
     sess = tf.Session()    
@@ -373,6 +472,9 @@ def fun():
 fun()
 
 
+5   gpu 使用
+#    https://cloud.tencent.com/developer/article/1155836
+    
 
 
 
@@ -383,9 +485,12 @@ fun()
     然后再定义操作（operation），如果我们使用tf.Session()来构建会话我们需要在会话构建之前
     定义好全部的操作（operation）然后再构建会话。    
     
-    
-   
-    
+6 tf.summary
+#    https://www.2cto.com/kf/201805/746214.html
+    tf.summary.scalar (name,tensor,collection=None)   
+    [1]输出一个含有标量值的Summary protocol buffer，这是一种能够被tensorboard模块解析的【结构化数据格式】
+    主要用途：
+       一般在画loss曲线和accuary曲线时会用到这个函数。
 # =============================================================================
 #   三 、可视化 tensorBoard
 # =============================================================================
