@@ -489,3 +489,4 @@
 [2019-06-04 12:57:04,720] [<ipython-input-5-61a367dc59f2>][line:152][func: KMeansCluster] - [DEBUG] : centroids : [array([-1.79102981,  4.16885757]), array([2.65157914, 5.94466877]), array([0.56471419, 4.80836105]), array([4.36528301, 6.45853996])]
 [2019-06-04 12:57:04,725] [<ipython-input-5-61a367dc59f2>][line:153][func: KMeansCluster] - [DEBUG] : assignments : [3, 0, 1, 2, 2, 3, 0, 1, 2, 2]
 [2019-06-04 18:22:35,660] [common.py][line:27][func: <module>] - [WARNING] : logger is work
+[2019-06-13 15:04:54,475] [common.py][line:27][func: <module>] - [WARNING] : logger is work
