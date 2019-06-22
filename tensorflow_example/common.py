@@ -26,17 +26,3 @@ logger.addHandler(handler)
 
 logger.warning('logger is work')
 
-#configdir = os.getcwd()+'/config/httpconfig.yml'
-#with open(configdir,"r") as f:
-#    message = yaml.load(f)
-
-#
-#header = {"Content-type": "application/json", "Accept-Encoding": "utf-8"}
-#url1 = "http://10.20.250.103:5000/addressSegment/"
-#url2 = "http://10.20.250.103:8410/address_jiexi/"
-#url3 = "http://10.20.250.103:8881/similarityes"
-#urls = [url1,url2,url3]
-#
-#aproject = {'header': header,
-#            'urls': urls
-#            }

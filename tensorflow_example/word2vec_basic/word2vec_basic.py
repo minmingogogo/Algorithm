@@ -187,11 +187,11 @@ def word2vec_basic(log_dir):
     buffer = collections.deque(maxlen=span)  # pylint: disable=redefined-builtin
     logger.debug('batch : {}'.format(batch))
     logger.debug('labels : {} '.format(labels))
-    logger.debug('recheck batch and labels : ')
-    for n in batch:
-        logger.debug("{}".format(n))    
-    for n in labels:
-        logger.debug("{}".format(n))    
+#    logger.debug('recheck batch and labels : ')
+#    for n in batch:
+#        logger.debug("{}".format(n))    
+#    for n in labels:
+#        logger.debug("{}".format(n))    
     logger.debug('span : {}'.format(span))
     logger.debug('buffer : {}'.format(buffer))
     logger.debug('data_index : {}'.format(data_index))
@@ -388,6 +388,8 @@ def word2vec_basic(log_dir):
     gpuconfig.gpu_options.allow_growth = True
     
       # Look up embeddings for inputs.
+      # 随机生成embeddings (50000,128),embed为从中提取labels 的128 index对应结果
+      # embed:(128,128) embeddings 跑一次变一次，如果embed在embeddings 后返回， 返回的结果跟返回embeddings 对应index 不一致
     with tf.name_scope('embeddings'):
       embeddings = tf.Variable(
             tf.random_uniform([vocabulary_size, embedding_size], -1.0, 1.0))
@@ -427,10 +429,16 @@ def word2vec_basic(log_dir):
 
     # Compute the cosine similarity between minibatch examples and all
     # embeddings.
+    #   norm:(50000,1) : embedding (50000,128) tf.square：每个元素平方，tf.reduce_sum：行求和生成[[sum_l1],[sum_l2],……,[sum_l50000]],最后取平方根
     norm = tf.sqrt(tf.reduce_sum(tf.square(embeddings), 1, keepdims=True))
+    #   相当于标准化 ： x1j/(sumj=(1,128)(x1j^2))^0.5
     normalized_embeddings = embeddings / norm
     valid_embeddings = tf.nn.embedding_lookup(normalized_embeddings,
                                               valid_dataset)
+    #   valid_embeddings(16,128) 成 normalized_embeddings (50000,128).T 
+        #   即：(16,128) * (128,50000)
+        # 相似度 ： cos = a*b/|a|*|b| = a/|a| * b/|b| 
+#                      = valid_embeddings * normalized_embeddings
     similarity = tf.matmul(
         valid_embeddings, normalized_embeddings, transpose_b=True)
 
@@ -461,7 +469,7 @@ def word2vec_basic(log_dir):
     average_loss = 0
     for step in range(num_steps):        
       if step < 10 :
-          logger.debug('step : {}'.format(step))
+          logger.debug('step : {} , average_loss :{}'.format(step,average_loss))
           batch_inputs, batch_labels = generate_batch(batch_size, num_skips,
                                                       skip_window)
           try:
@@ -481,9 +489,9 @@ def word2vec_basic(log_dir):
           logger.debug('num_sampled : {} ; num_classes => vocabulary_size: {}'.format(num_sampled,vocabulary_size))
           try:
               logger.debug('norm : {} ; '.format(norm.eval()))
-              logger.debug('normalized_embeddings : {} ; '.format(normalized_embeddings.eval()))
+              logger.debug('normalized_embeddings : {} ;\n normalized_embeddings.shape :{} '.format(normalized_embeddings.eval(),normalized_embeddings.shape))
               logger.debug('valid_dataset : {} ; '.format(valid_dataset.eval()))
-              logger.debug('similarity : {} ; '.format(similarity.eval()))          
+              logger.debug('similarity : {} ;\n similarity.shape :{} '.format(similarity.eval(),similarity.shape))          
           except Exception as e:
               logger.error('can not get values of simlarity and its detail cause : {} '.format(e))
           
@@ -546,13 +554,15 @@ def word2vec_basic(log_dir):
         logger.debug('norm : {} ; '.format(norm.eval()))
         logger.debug('normalized_embeddings : {} ; '.format(normalized_embeddings.eval()))
         logger.debug('valid_dataset : {} ; '.format(valid_dataset.eval()))
-        logger.debug('similarity : {} ; '.format(similarity.eval()))
+#        logger.debug('similarity : {} ; '.format(similarity.eval()))
         sim = similarity.eval()
+        logger.debug('sim : {} ; '.format(sim))
         logger.debug('{} going to range valid_size : {} times'.format('-'*30,valid_size))
         for i in range(valid_size):
           logger.debug(' ----------------- i : {} turn '.format(i))
           valid_word = reverse_dictionary[valid_examples[i]]
           top_k = 8  # number of nearest neighbors
+          # argsort 返回从大到小的索引值
           nearest = (-sim[i, :]).argsort()[1:top_k + 1]
           log_str = 'Nearest to %s:' % valid_word
           logger.debug('valid_examples[ {} ] : {}; \n valid_word : {} \n'.format(i,valid_examples[i],valid_word))
